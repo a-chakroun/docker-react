@@ -2,7 +2,9 @@ sudo: required
 
 services:
   - docker
-
+branches:
+  only:
+  - dev
 before_install:
   - docker build -t amine/docker-react -f Dockerfile.dev .
 
