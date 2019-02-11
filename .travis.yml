@@ -1,12 +1,11 @@
 sudo: required
+language: node_js
 
 services:
   - docker
-branches:
-  only:
-  - dev
+
 before_install:
-  - docker build -t amine/docker-react -f Dockerfile.dev .
+  - docker build -t tes -f Dockerfile.dev .
 
 scripts:
-  - docker run amine/docker-react npm run test -- --coverage
+  - docker run tes npm run test -- --coverage
