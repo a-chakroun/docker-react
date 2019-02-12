@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-           Feature branch
+           Feature branch 12h
           </a>
         </header>
       </div>
