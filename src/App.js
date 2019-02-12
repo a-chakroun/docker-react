@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-           docker kiber
+           Feature branch
           </a>
         </header>
       </div>
