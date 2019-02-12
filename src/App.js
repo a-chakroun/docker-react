@@ -18,8 +18,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
 
-           Feature branch 12h
-
+           13h point
 
           </a>
 
